@@ -21,9 +21,9 @@ const 사람들 = [
   },
 ];
 
-// 여기에 코드를 작성해주세요.
-const 나이20살이상한명 = 사람들.?
 
-console.log(나이20살이상한명)
-// 결과
-// { '이름': '김유리', '나이': 22, '성별': '여' }
+const filtering = 사람들.filter((person) => {
+  return person.나이 > 20
+})
+
+console.log(filtering)
