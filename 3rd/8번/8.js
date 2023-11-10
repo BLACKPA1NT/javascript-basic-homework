@@ -29,6 +29,7 @@ const 튜터님들 = [
   },
 ];
 
+
 튜터님들.forEach((array) => {
   console.log(array.이름 + '님의 담당반은 ' + array.담당반 + '입니다.')
 })
